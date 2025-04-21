@@ -4,19 +4,6 @@
 
 ---
 
-1. How do I approach designing software?
-        <br>What new design skills has your work on the project helped you to craft?
-        <br>What design process did you follow for your project work?
-        <br>How could tactics from your design approach be applied in future work?
-
-3. How do I approach developing programs?
-        <br>What new development strategies did you use while working on your 3D scene?
-        <br>How did iteration factor into your development?
-        <br>How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
-   
-5. How can computer science help me in reaching my goals?
-        <br>How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
-        <br>How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
 
 ---
 In this project I chose to create an office-like environment that consisted of a stack of books, pencil cup with pencils, coffee mug, computer, keyboard, and mouse. From the starting scene I added a window that the user is oriented to that has a view outside to a brick wall with a blue sky and green hedge. The intent behind the window was to add a level of depth to the room. The individual items themselves needed to be constructed with multiple mesh shapes. For example, the coffee cup on the desk is made up of a cylinder and half torus oriented so that the half torus is the handle to the mug. By using these predefined shapes that are built of potentially hundreds of triangles we’re able to quickly reuse and construct life like objects without having to custom map the mesh for each item. Items such as the contents on the computer screen and the keyboard are complex in nature and would require considerable development to accomplish. Instead, I applied textures to the objects with an image of these complex items as found in the real world. This strategy of wrapping objects in textures can be applied on many levels such as adding patterns and vegetation.<br>
