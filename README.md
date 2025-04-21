@@ -1,11 +1,17 @@
-# OpenGL Example - Project Reflection
+# OpenGL Example
 
 ![Project Main scene view](./Textures/project.png)
 
 ---
-
+<br>
+In this project I've had the opportunity to analyze large preexisting projects and apply solutions to enhance their readability and organization. I’ve implemented an object class that can retain values and called to render multiple objects. When grouped logically with like objects it can reduce the overall ‘clutter’ found in the source code. While this wasn’t a requirement of the project I felt as though it enhanced my ability to understand the issue at hand. Since I didn’t create the project initially, I didn’t work with the architecture or interfaces, but I did work with the modules and data contained within the given logic for the design process. In future work in this industry I anticipate that I won’t be at every meeting and at the start of every project and thus critical thinking skills to understand existing projects will prove vital in my career.<br>
+<br>
+I approach developing programs from the top-down development techniques whenever possible. That could mean starting with building a project organization chart or a mermaid tail diagram. These diagrams enable software developers to understand how data flows from one area of a program to another while keeping the context as to why it’s important to the overall objective. Computational graphics and visualizations give me new skills and knowledge in my industry because organizations are becoming more concerned with usability rather than availability. This means that if a program isn’t adhering to a positive user experience it isn’t going to be competitive. Users have difficulty with terminal-based applications or ‘rough’ applications because in a general sense it feels unprofessional. Computer graphics and visualizations allows a development to polish and refine itself to appeal to a large market.<br>
 
 ---
+### Project Reflection
+<br>
+
 In this project I chose to create an office-like environment that consisted of a stack of books, pencil cup with pencils, coffee mug, computer, keyboard, and mouse. From the starting scene I added a window that the user is oriented to that has a view outside to a brick wall with a blue sky and green hedge. The intent behind the window was to add a level of depth to the room. The individual items themselves needed to be constructed with multiple mesh shapes. For example, the coffee cup on the desk is made up of a cylinder and half torus oriented so that the half torus is the handle to the mug. By using these predefined shapes that are built of potentially hundreds of triangles we’re able to quickly reuse and construct life like objects without having to custom map the mesh for each item. Items such as the contents on the computer screen and the keyboard are complex in nature and would require considerable development to accomplish. Instead, I applied textures to the objects with an image of these complex items as found in the real world. This strategy of wrapping objects in textures can be applied on many levels such as adding patterns and vegetation.<br>
 <br>
 As you build complex objects that are made up of multiple well-known shapes and wrap them in familiar textures, we start to create an illusion for the user that adds to their experience. To further this effect, I’ve added lighting of multiple color lights to the scene. Most computer screens emit blue light and as such I placed a lighting location at the same vector coordinates as the computer screen with blue ambient, diffuse, and specular lighting with considerable focal strength. This light is casted on other objects across the desk such as the mug that has a “shiny” quality to it and blue light can be seen breaking from its edges. The combination of ambient, diffuse, and specular lighting makes up what is known as combined or Phong lighting __(Vries, Basic Lighting, 2014)__.<br>
